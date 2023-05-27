@@ -1,7 +1,5 @@
 /* stylelint-disable declaration-block-no-duplicate-properties */
 
-/* General styles */
-
 .table-bordered {
   border: 1px solid lightgray;
   border-radius: 5px;
@@ -32,7 +30,6 @@ td {
   margin: 5px;
 }
 
-/* Mission styles */
 .missions-wrap table {
   border-collapse: collapse;
   width: 100%;
@@ -84,7 +81,6 @@ td {
   border-left: 1px solid lightgrey;
 }
 
-/* Pill styles */
 .pill {
   display: inline-block;
   padding: 0.5em 1em;
