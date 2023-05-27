@@ -12,7 +12,7 @@ export const getMissions = createAsyncThunk(
       return res.data;
     } catch (error) {
       return thunkAPI.rejectWithValue(
-        error?.data?.message || "Something went wrong!"
+        error?.data?.message || "Something's not right!"
       );
     }
   }
@@ -47,7 +47,6 @@ const missionsSlice = createSlice({
     },
   },
   extraReducers: (builder) => {
-    // get missions
     builder
       .addCase(getMissions.pending, (state) => {
         state.isLoading = true;

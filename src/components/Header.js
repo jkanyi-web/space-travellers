@@ -30,7 +30,7 @@ const Header = () => (
               <NavLink
                 exact
                 to={path}
-                activeClassName="active-link"
+                className={(link) => (link.isActive ? "active-link" : "")}
               >
                 {label}
               </NavLink>
