@@ -1,0 +1,126 @@
+/* stylelint-disable declaration-block-no-duplicate-properties */
+
+/* General styles */
+
+.table-bordered {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  border-bottom: none;
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+}
+
+.separator {
+  border-bottom: 1px solid lightgray;
+}
+
+.main-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.list-wrap,
+.list-wrapx {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+/* Mission styles */
+.missions-wrap table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.missions-wrap th,
+td {
+  padding: 0.5em;
+  text-align: left;
+}
+
+.missions-wrap th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.missions-wrap tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.missions-wrap .separator {
+  border-right: 1px solid #ccc;
+}
+
+.missions-wrap .bordered {
+  border: 1px solid #ccc;
+}
+
+.missions-wrap .rounded {
+  border-radius: 5px;
+}
+
+.missions-wrap tr:hover {
+  background-color: #e6e6e6;
+}
+
+.missions-wrap {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.missions-wrap thead {
+  border-bottom: 1px solid lightgrey;
+}
+
+.missions-wrap thead th {
+  border-left: 1px solid lightgrey;
+}
+
+/* Pill styles */
+.pill {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #f2f2f2;
+  color: #666;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.pills,
+.pillsx,
+.pillsxx {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.pills {
+  background-color: teal;
+  color: white;
+}
+
+.pillsx {
+  background-color: black;
+  color: #fff;
+}
+
+.pillsxx {
+  border: 1px solid red;
+  color: red;
+}
